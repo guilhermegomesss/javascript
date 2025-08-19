@@ -17,8 +17,33 @@ primeiraFuncao()
 
 // Arrow Functions :
 
-const primeiraArrowFunction = () => {
-    console.log("Criei Minha primeira Arrow Function")
+const minhaPrimeiraArrowFunction = () => {
+    console.log("Minha Primeira Arrow Funcion Criada ")
 }
-primeiraArrowFunction()
+minhaPrimeiraArrowFunction()
+
+
+// Testando se um número é impar ou par com arrow Function :
+
+const testandoNumeros = (numero) => {
+    if (numero % 2 === 0 ) {
+      console.log("O número é par")
+      return
+  
+    }
+    else {
+        console.log("O número é impar")
+        return
+    }
+
+}
+
+testandoNumeros(2)
+
+
+
+
+
+
+
 
