@@ -41,6 +41,10 @@ const testandoNumeros = (numero) => {
 testandoNumeros(2)
 
 
+// Mais sobre Arrow Functions :
+const numeroAoQuadrado = (numero) => numero * numero
+
+console.log(numeroAoQuadrado(9))
 
 
 
