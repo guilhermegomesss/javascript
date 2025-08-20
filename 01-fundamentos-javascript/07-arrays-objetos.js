@@ -1,39 +1,29 @@
-// Arrays :
+// Arrays e objetos : 
 
-let b = [0,1,2,3]
-console.log(typeof(b))
+// Um array é um cojunto de dados que pode ser acessado por um índice.
+// Um objeto é um conjunto de propriedades, onde cada propriedade é uma associação chave/valor.
+// Vetor é um array unidimensional e uma matriz é um array multidimensional.
 
-// o tipo de um array é objeto
+// Conhecendo os arrays :
+// Criando um array :
 
+ const meuPrimeiroArray = [1,2,3,4,5,6,7,8,9,10]
+ console.log(meuPrimeiroArray)
 
-// Vetor : Aray com uma dimensão :
-
-let frutas = ['Maça','Pera']
-console.log(frutas[0])
-console.log(frutas[1])
-
-// Matriz : Array com várias dimensões :
-let carros = [
-    [
-        'Mercedes','Bmw'
-    ],
-
-    [
-        'Golf','Strada'
-    ]
-
-];
-
-console.log(carros[0][1])
-console.log(carros[1][0])
+// Meu primeiro Vetor :
+const meuPrimeiroVetor = ['Oi','Tudo bem ']
+console.log(meuPrimeiroVetor)
+console.log(meuPrimeiroVetor[1])
 
 
-// Objetos :
 
-const pessoa = {
-    nome :"Guilherme",
-    idade : 18
-}
+// Minha Primeira Matriz :
 
-console.log(pessoa)
-console.log(pessoa.nome)
+const minhaPrimeiraMatriz = [
+  [1,2,3],
+  [4,5,6],
+  [7,8,9]
+]
+console.log(minhaPrimeiraMatriz)
+console.log(minhaPrimeiraMatriz[1][0])
+  
