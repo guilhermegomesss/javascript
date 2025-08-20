@@ -1,44 +1,18 @@
-// Criando um array e descobrindo o seu tipo de dado :
+
+// Objetos :
+// Criando um objeto 
+const objeto = {
+  nome : "Guilerme",
+  idade : 18,
+  sexo : "Masculino"
+  
+}
 
 
-const arr = [1,2,3]
+console.log(objeto) // Vai imprimir todo o objeto
 
-console.log(typeof(arr))
+console.log(objeto.idade) // Vai imprimir a idade do objeto
 
+console.log(objeto.nome.length) // Vai exibir o tamanho em caracter do nome
 
-
-
-// Propriedades  
-// acessando propriedades de um array
-const numbers = [1,2,3,4,5,6]
-
-console.log(numbers.length) // descobrir o tamanho do array 
-console.log(numbers["length"]) // Acessar o tamanho do array
-
-console.log(numbers)
-
-
-const nome = "Guilherme"
-console.log(nome)
-console.log(nome.length)
-console.log(nome["length"])
-
-// Métodos 
-
-// Usando métodos para concatenar arrays
-const nomes = [1,2,3,4,5,6]
-const nomes2 = [1,2,3]
-const todosNomes = nomes.concat(nomes2)
-
-console.log(todosNomes)
-// Método para deixar todos os textos em maiúsculo 
- const meuNome = 'Guilherme Augusto Gomes'
-console.log(meuNome.toUpperCase())
-
-// Método para deixar todos os textos em minúsculo 
-console.log(meuNome.toLowerCase())
-
-// Método para descobrir a posição de um caracter em uma string
-
-console.log(meuNome.indexOf("o"))
-
+console.log(typeof(objeto)) // Vai exibir o tipo de dado do objeto que no caso é object
